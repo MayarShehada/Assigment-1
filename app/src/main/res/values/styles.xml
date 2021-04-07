@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="label_Style">
+        <item name="android:layout_width">185dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAlignment" tools:ignore="NewApi">center</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="txt_view_style">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAlignment" tools:ignore="NewApi">center</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="layout_style">
+        <item name="android:layout_width">370dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">20sp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="Edit_txt_layout">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>
